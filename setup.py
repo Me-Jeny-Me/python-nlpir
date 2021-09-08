@@ -2,7 +2,7 @@
 setup.py file for NLPIR
 '''
 from distutils.core import setup, Extension
- 
+ # It's my comment
 NLPIR_module = Extension('_NLPIR',sources=['NLPIR_wrap.cxx'], libraries = ['NLPIR'])
 
 setup(name = 'NLPIR',
